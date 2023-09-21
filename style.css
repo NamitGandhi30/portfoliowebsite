@@ -1,0 +1,138 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(16, 16, 16);
+}
+/* Style the navbar */
+.navbar {
+    background-color: rgb(16, 16, 16); 
+    color: #fff; 
+    padding: 10px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+/* Style the logo link */
+#logo {
+    text-decoration: none; 
+    font-size: 40px; 
+    font-weight: bold; 
+    color: #fff; 
+}
+
+/* Style the list items */
+.navbar ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    margin-left: auto; 
+}
+
+/* Style the list items in the navbar */
+.navbar li {
+    margin-left: 20px; 
+}
+/* Style the links in the list */
+.navbar a {
+    text-decoration: none; 
+    color: #fff; 
+    font-size: 25px;
+    font-weight: bold; 
+}
+
+/* Style the GitHub and LinkedIn icons */
+.fa-github::before,
+.fa-linkedin::before {
+    font-family: "Font Awesome 5 Brands"; 
+    margin-right: 5px;
+    font-size: 25px; 
+    padding: 10px;
+}
+
+/* BODY */
+
+.bodymain {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+.mainbody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding-right: 20px;
+}
+
+.bodytext {
+    color: white;
+    font-size: 85px;
+    font-weight: 600;
+}
+/* rainbow effect */
+@keyframes rainbow {
+    0% {
+        color: #f04dff;
+    }
+
+    25% {
+        color: #ff4d4d;
+    }
+
+    50% {
+        color: #ffc54d;
+    }
+
+    75% {
+        color: #6aed76;
+    }
+
+    100% {
+        color: #09f;
+    }
+}
+#h4{
+    animation: rainbow 10s ease 0s infinite alternate none running;
+}
+
+.rainbow {
+    animation: rainbow 10s ease 0s infinite alternate none running;
+}
+
+.profile {
+    width: 295px;
+}
+
+.bodyname {
+    width: 70%;
+    margin: auto;
+}
+
+.bodynametext {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+/* footer area */
+.projecttitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    color: #fff;
+    
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+
